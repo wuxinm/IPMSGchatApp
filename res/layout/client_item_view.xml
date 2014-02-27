@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="?android:attr/listPreferredItemHeight"
+    android:orientation="vertical">
+    <LinearLayout android:id="@+id/label_clientlist_linearlayout_1" 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="3">
+        <TextView android:id="@+id/label_clientlist_nickname"
+            android:singleLine="true" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_weight="1"
+            android:paddingLeft="10dp" android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30dp" />
+        <TextView android:id="@+id/label_clientlist_ip"
+            android:singleLine="true" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_weight="0"
+            android:layout_alignParentRight="true"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:paddingRight="10dp"
+            android:textSize="16dp" />
+    </LinearLayout>
+    <LinearLayout android:id="@+id/label_clientlist_linearlayout_2" 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <TextView android:id="@+id/label_clientlist_msg"
+            android:singleLine="true" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:paddingLeft="10dp"
+            android:layout_weight="1" android:textSize="12dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+        />
+        <TextView android:id="@+id/label_clientlist_time"
+            android:singleLine="true" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:paddingRight="10dp"
+            android:layout_weight="0" android:textSize="12dp"
+            android:layout_alignParentRight="true"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+        />   
+    </LinearLayout>
+</LinearLayout>

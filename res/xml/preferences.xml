@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+	android:title="@string/option">
+	<PreferenceScreen android:title="@string/general_title" android:summary="@string/general_summary">
+		<EditTextPreference android:key="@string/nickname_key"
+			android:title="@string/nickname" android:summary="">
+		</EditTextPreference>
+
+		<EditTextPreference android:key="@string/workgroup_key"
+			android:title="@string/workgroup" android:summary="">
+		</EditTextPreference>
+
+	</PreferenceScreen>
+	<PreferenceScreen 
+	
+	android:title="@string/message_setting_title"
+		android:summary="@string/message_setting_summary">
+		<CheckBoxPreference android:key="@string/history_check_key"
+			android:title="@string/message_history_title" android:summary="@string/message_history_summary"
+		 android:defaultValue="true">
+		</CheckBoxPreference>
+		<CheckBoxPreference android:key="@string/message_remind_check_key"
+			android:title="@string/show_message_in_notificationl_title" android:summary="@string/show_message_in_notification_summary"
+			 android:defaultValue="true">
+		</CheckBoxPreference>
+		<ListPreference android:key="@string/message_remind_plan_key"
+			android:defaultValue="2" 
+			android:entryValues="@array/message_remind_plan_value"
+			android:dialogTitle="@string/message_remind_plan_dialog_title" android:entries="@array/message_remind_plan_entry"
+			android:summary="@string/message_remind_plan_summary" android:title="@string/message_remind_plan_title"
+			android:negativeButtonText="@string/cancel"></ListPreference>
+
+	</PreferenceScreen>
+	<PreferenceScreen android:title="@string/advanced " android:summary="@string/advanced_detail">
+		<CheckBoxPreference android:defaultValue="true"
+			android:key="@string/advanced_message_check_key"
+			android:disableDependentsState="true" android:summary="@string/advanced_summary"
+			android:title="@string/advanced_title">
+		</CheckBoxPreference>
+
+		<ListPreference android:key="@string/message_overtime_limit_key"
+			android:defaultValue="@integer/message_overtime_limit_default_value" android:dependency="@string/advanced_message_check_key"
+			android:entryValues="@array/message_overtime_limit_value"
+			android:dialogTitle="@string/message_overtime_limit_dialog_title" android:entries="@array/message_overtime_limit_entry"
+			android:summary="@string/message_overtime_limit_summary" android:title="@string/message_overtime_limit_title"
+			android:negativeButtonText="@string/cancel"></ListPreference>
+			
+		<ListPreference android:key="@string/message_retry_times_key"
+			android:defaultValue="@integer/message_retry_times_default_value" android:dependency="@string/advanced_message_check_key"
+			android:entryValues="@array/message_retry_times_value"
+			android:title="@string/message_retry_times_title"
+			android:dialogTitle="@string/message_retry_times_dialog_title" 
+			android:entries="@array/message_retry_times_entry"
+			android:negativeButtonText="@string/cancel" 
+			android:summary="@string/message_retry_times_summary"  >
+		</ListPreference>
+		
+	</PreferenceScreen>
+</PreferenceScreen>  
+
+

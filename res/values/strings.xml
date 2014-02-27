@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HummingBird</string>
+    <string name="hello">HummingBird\n\n加载中...请稍候...</string>
+    <string name="hummingbird_running">蜂鸟正在运行</string>
+    <string name="touch_to_show">点击这里切换到蜂鸟</string>
+    
+    <string name="login">登录</string>    
+    <string name="welcome">欢迎您</string>
+    <string name="add_client_ip">添加IP</string>
+    <string name="refresh_client_list">刷新列表</string>
+    
+    <!-- 客户端列表菜单项 -->
+    
+    <string name="menu_about">关于</string>
+    <string name="menu_options">选项</string>
+    <string name="menu_quit">退出</string>
+    <string name="menu_sendfile">发送文件</string>
+    
+    <string name="say_something">请输入信息</string>
+    <string name="send_message">发送信息</string>
+    <string name="client_list_title">蜂鸟 - 在线用户</string>
+    <string name="chat_title">正在聊天</string>
+    <string name="browser_title">SDpath</string>
+    <string name="chat_title_user">与 %1$s 聊天</string>
+    
+    <!-- 系统设置界面需要要到的字符串 -->
+    
+    <string name="nickname_key">nickname</string>
+	<string name="workgroup_key">workgroup</string>
+	<string name="history_check_key">history_check</string>
+    <string name="advanced_message_check_key">advanced_message_check</string>
+    <string name="message_overtime_limit_key">message_overtime_limit</string>
+    <string name="message_retry_times_key">message_retry_times</string>
+    <string name="message_remind_check_key">message_remind_check</string>
+    <string name="message_remind_plan_key">message_remind_plan</string>
+    <string name="option">设置</string>
+    <string name="general_title">常规</string>
+    <string name="workgroup">工作组</string>
+    <string name="nickname">用户名</string>
+    <string name="general_summary">基本信息</string>
+    
+    
+    
+    
+    
+    
+    <string name="message_setting_title">消息</string>
+    <string name="message_history_title">历史消息</string><string name="message_setting_summary">设置消息</string>
+    
+    <string name="message_history_summary">记录历史消息</string>
+    
+    <string name="show_message_in_notificationl_title">在通知栏提示新消息</string>
+    <string name="show_message_in_notification_summary">有新消息时将在通知栏显示</string>
+    <string name="message_remind_plan_dialog_title">请选择</string>
+    <string name="message_remind_plan_summary">点击设置</string>
+    <string name="message_remind_plan_title">新消息提示方式</string>
+    <string name="cancel">取消</string>
+    <string name="advanced ">高级</string>
+    <string name="advanced_detail">设置消息发送</string>
+    <string name="advanced_summary">系统默认</string>
+    <string name="advanced_title">消息发送设置</string>
+    <string name="message_overtime_limit_title">发送超时时限</string>
+    <string name="message_overtime_limit_dialog_title">发送超时时限</string>
+    <string name="message_overtime_limit_summary">点击设置</string>
+    <string name="message_retry_times_title">发送自动重试上限</string>
+    <string name="message_retry_times_summary">点击设置</string>
+    <string name="message_retry_times_dialog_title">重试次数</string>
+    
+</resources>

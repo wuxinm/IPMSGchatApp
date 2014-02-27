@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- 系统设置界面需要要到的数组 -->
+	<string-array name="message_retry_times_entry">
+		<item>3次</item>
+		<item>4次</item>
+		<item>5次</item>
+	</string-array>
+	<string-array name="message_retry_times_value">
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+	</string-array>
+	
+	<string-array name="message_overtime_limit_entry">
+		<item>10s</item>
+		<item>15s</item>
+		<item>20s</item>
+	</string-array>
+	
+	<string-array name="message_overtime_limit_value">
+		<item>10</item>
+		<item>15</item>
+		<item>20</item>
+	</string-array>
+	
+	<string-array name="message_remind_plan_entry">
+		<item>无</item>
+		<item>震动</item>
+		<item>铃声</item>
+	</string-array>
+	
+	<string-array name="message_remind_plan_value">
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+	</string-array>
+   
+</resources> 

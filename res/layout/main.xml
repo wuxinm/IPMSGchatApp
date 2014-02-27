@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@drawable/background">
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_marginLeft="20dp"
+		android:layout_marginRight="20dp" android:layout_centerInParent="true">
+		<TextView android:layout_width="wrap_content" android:text="用户名："
+			android:textSize="20dp" android:layout_height="fill_parent" />
+		<EditText android:id="@+id/login_nickname" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" />
+		<TextView android:layout_width="wrap_content" android:text="工作组："
+			android:textSize="20dp" android:layout_height="wrap_content" />
+		<EditText android:id="@+id/login_groupname" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" />
+		<ImageButton android:id="@+id/btn_login" android:text="@string/login"
+			android:layout_gravity="center" android:background="@drawable/login1"
+			android:layout_height="wrap_content" android:layout_width="wrap_content"></ImageButton>
+	</LinearLayout>
+
+</RelativeLayout>

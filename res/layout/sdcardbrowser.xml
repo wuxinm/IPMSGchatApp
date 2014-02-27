@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mobile="net.ericshieh.android.hummingbird.filebrowser" android:orientation="vertical"
+    android:layout_width="fill_parent" android:layout_height="fill_parent">
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:orientation="vertical"
+        android:layout_weight="10">
+        <net.ericshieh.android.hummingbird.FileBrowser
+            android:id="@+id/filebrowser" android:layout_width="fill_parent"
+            android:layout_height="fill_parent" mobile:folderImage="@drawable/folder"
+            mobile:extName1="jpg" mobile:fileImage1="@drawable/jpg"
+            mobile:otherFileImage="@drawable/other" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:orientation="vertical"
+        android:layout_weight="1">
+        <Button android:id="@+id/btn_SDpathSelect"
+            android:layout_width="fill_parent" android:layout_height="wrap_content"
+            android:text="确定"
+            android:layout_gravity="bottom" />
+    </LinearLayout>
+</LinearLayout>

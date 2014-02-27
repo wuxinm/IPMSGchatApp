@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background1">
+    <TextView
+        android:id="@+id/label_top_nickname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome"
+        android:layout_alignParentTop="true" />
+    <LinearLayout
+        android:id="@+id/linear_clientlist_button_bar"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        >
+        <Button
+            android:id="@+id/btn_add_ip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add_client_ip"
+            android:layout_weight="1" />
+        <Button
+            android:id="@+id/btn_refresh_clients"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/refresh_client_list"
+            android:layout_weight="1" />
+    </LinearLayout>
+        <ListView
+        android:id="@+id/listview_client"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/label_top_nickname"
+        android:layout_above="@id/linear_clientlist_button_bar" />
+</RelativeLayout>
